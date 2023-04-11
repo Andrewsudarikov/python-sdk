@@ -8,7 +8,7 @@
 # DoubleCloud SDK for Python
 
 Wanna automate your DoubleCloud infrastructure with Python?
-Let's start.
+Let's get right to it.
 
 ## Installation
 
@@ -20,7 +20,7 @@ pip install doublecloud
 
 ## Getting started
 
-There are a couple of options for authorizing your requests:
+There's a couple of options for authorizing your requests:
 
 * Service Account Keys
 * Externally created IAM tokens.
@@ -50,9 +50,11 @@ Check the `examples` directory for more examples.
 
 ### Dependencies
 
-Use `make venv` command to install the library, its production and development dependencies.
-Use `make submodule` to fetch proto specifications.
-Use `make generate` to generate wrappers for gRPC services.
+Use the following dependencies:
+
+* `make venv` - install the library, its production and development dependencies.
+* `make submodule` - fetch proto specifications.
+* `make generate` - generate wrappers for gRPC services.
 
 ### Formatting
 
